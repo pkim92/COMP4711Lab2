@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+form, ul > div {
+    margin: auto;
+    width: 40%;
+    border: 1px solid lightgray;
+    padding: 1em;
+}
+.formTitle {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    margin: auto;
+}
+.artistFormName {
+    width: 100%;
+    padding: 1em;
+    margin: auto;   
+}
+.artistInfo, .artistImage {
+    display: inline-block;
+    margin-right: 1em;
+}
+ul {
+    padding: 0 0 0 0;
+}
+ul > div {
+    width: 30%;
+}
+.artist:hover {
+    background-color: lightgray;
+}
+.artistTitle {
+    font-weight: bold;
+}
+.artistInfo {
+    vertical-align: top;
+}
